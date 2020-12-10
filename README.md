@@ -1,9 +1,7 @@
 # Sudoku Solver
 This solver uses the exact cover problem approach to solve a given sudoku.
 
-It will solve any sudoku, which:
-  - is square-shaped (height = width)
-  - the size is equal to n*n, n >= 2. For example 9x9, 16x16, ...
+It will solve any sudoku, which has a side equal to n*n, where n >= 2. For example 4x4, 9x9, 16x16, ...
 
 
 At the moment if you execute `stack run` it will just output the solution to the sudoku `sudoku9x9` from the file `TestSudokus.hs`.
